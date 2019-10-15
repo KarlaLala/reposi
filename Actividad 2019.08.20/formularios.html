@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="#" method="post">
+		<input type="text" size="15" maxlength="30" value="Nombre" name="nombre" id="nombre" required>
+		<input type="password" size="15" maxlength="30" name="pass" id="pass">
+		<input type="date" size="15" maxlength="30" name="date" id="date">
+		<input type="number" size="15" maxlength="30" name="num" id="num">
+		<input type="email" size="15" maxlength="30" name="email" id="email">
+		<br>
+		<textarea name="comentarios" rows="10" cols="40">
+			Comentarios
+		</textarea>
+		<br>
+		<select name="transporte">
+			<option>Coche</option>
+			<option>Avion</option>
+			<option>Tren</option>
+		</select>
+		<br>
+		<select name="transporte" size="2">
+			<option>Coche</option>
+			<option>Avion</option>
+			<option>Tren</option>
+		</select>
+		<br>
+		<select name="transporte" size="2" multiple>
+			<option>Coche</option>
+			<option>Avion</option>
+			<option>Tren</option>
+		</select>
+		<br>
+		<br>
+		<input type="radio" name="transporte" value="1">Coche 
+		<br>
+		<input type="radio" name="transporte" value="2" checked>Avión
+		<br>
+		<input type="radio" name="transporte" value="3">Tren
+		<br>
+		<input type="checkbox" name="transporte" value="1">Coche 
+		<br>
+		<input type="checkbox" name="transporte" value="2" checked>Avión
+		<br>
+		<input type="checkbox" name="transporte" value="3">Tren
+		<br>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar">
+	</form>
+</body>
+</html>

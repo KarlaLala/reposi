@@ -1,0 +1,93 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+h1 {
+ font: bold 39px Adobe Heiti Std, sans-serif;
+ color:white;
+
+}
+h2 {
+ font: bold 14px Adobe Heiti Std, sans-serif;
+}
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+ display: block;
+}
+
+body {
+ text-align: center;
+}
+#agrupar {
+ width: 960px;
+ margin: 15px auto;
+ text-align: left;
+
+}
+#cabecera {
+ background: url(rosita.jpg);
+ border: 1px solid#FA5882;
+ padding: 20px;
+}
+#menu {
+ background: #F7819F;
+ padding: 5px 15px;
+ color: #FFFFFF;
+}
+#menu li {
+ display: inline-block;
+ list-style: none;
+ padding: 5px;
+ font: bold 14px verdana, sans-serif;
+
+}
+#seccion {
+ float: left;
+ width: 660px;
+ margin: 20px;
+
+
+}
+#columna {
+ float: left;
+ width: 220px;
+ margin: 20px 0px;
+ padding: 20px;
+ background:#F7819F;
+ color: #FFFFFF;
+}
+#pie {
+ clear: both;
+    text-align: center;
+ padding: 20px;
+ border-top: 2px solid #F5A9BC;
+}
+article {
+ background:#F5A9BC;
+ border: 1px solid #F5A9BC;
+ padding: 20px;
+ margin-bottom: 15px;
+
+}
+/*Para referenciar un elemento <footer> dentro de
+un elemento <article>*/
+article footer {
+ text-align: right;
+ color: #FFFFFF;
+}
+time {
+ color:#F5A9BC;
+}
+figcaption {
+ font: italic 14px verdana, sans-serif;
+}
+div {
+ width: 100px;
+ margin: 20px;
+ padding: 10px;
+ border: 1px solid #FA5882;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}

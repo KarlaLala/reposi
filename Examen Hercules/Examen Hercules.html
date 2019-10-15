@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hercules</title>
+	<link rel="icon" href="http://onceupondaily.altervista.org/wp-content/uploads/2013/12/hercules-ouat.png">
+	<style type="text/css">
+		h1{
+			color: white;
+		}
+		div {
+			margin: auto;
+			background:  linear-gradient(to right, rgba(252,236,252,1) 0%, rgba(251,166,225,0.8) 27%, rgba(252,158,222,0.75) 34%, rgba(253,137,215,0.75) 51%, rgba(255,124,216,0.75) 100%);
+			padding: 10px;
+			width: 80%;
+			text-align: center;
+		}
+
+		#titulo{
+			background: linear-gradient(to right, rgba(255,0,132,1) 0%, rgba(255,0,132,0.52) 55%, rgba(255,0,132,0.52) 100%);
+		}
+
+		#boton{
+			text-align: center;
+			
+		}
+	</style>
+	<script type="text/javascript">
+		var cal=0;
+
+		function calcular(){
+			respuesta1 = document.getElementById("1")
+			if (respuesta1.value === "zeus") {
+				document.getElementById("color1").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color1").style.color = 'red';
+			}
+
+			respuesta2 = document.getElementById("2")
+			if (respuesta2.value === "megara") {
+				document.getElementById("color2").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color2").style.color = 'red';
+			}
+
+			respuesta3 = document.getElementById("3")
+			if (respuesta3.value === "la salvo de un centauro") {
+				document.getElementById("color3").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color3").style.color = 'red';
+			}
+
+			respuesta4 = document.getElementById("4")
+			if (respuesta4.value === "pegaso") {
+				document.getElementById("color4").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color4").style.color = 'red';
+			}
+
+			respuesta5 = document.getElementById("5")
+			if (respuesta5.value === "salva a Megara") {
+				document.getElementById("color5").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color5").style.color = 'red';
+			}
+
+			respuesta6 = document.getElementById("6")
+			if (respuesta6.value === "hades") {
+				document.getElementById("color6").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color6").style.color = 'red';
+			}
+
+			respuesta7 = document.getElementById("7")
+			if (respuesta7.value === "pena y panico") {
+				document.getElementById("color7").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color7").style.color = 'red';
+			}
+
+			respuesta8 = document.getElementById("8")
+			if (respuesta8.value === "scar") {
+				document.getElementById("color8").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color8").style.color = 'red';
+			}
+
+			respuesta9 = document.getElementById("9")
+			if (respuesta9.value === "no hablare de mi amor") {
+				document.getElementById("color9").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color9").style.color = 'red';
+			}
+
+			respuesta10 = document.getElementById("10")
+			if (respuesta10.value === "phil") {
+				document.getElementById("color10").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color10").style.color = 'red';
+			}
+
+
+			document.getElementById("calificacion").innerHTML = "Tu calificación del examen es: " + cal;
+			document.getElementsByTagName("input").disabled = false;
+		}
+	</script>
+</head>
+<body background="https://i.pinimg.com/originals/53/56/09/535609e437ef98311dc0d52dc0d4668b.jpg">
+	<div id="titulo"><h1 align="center">Examen de Hercules de Disney</h1></div>
+	<div>
+		<label id="color1">1. ¿Cómo se llama el padre de Hércules?
+		<input type="text" name="1" id="1" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color2">2. ¿Cómo se llama el gran amor de Hércules?
+		<input type="text" name="2" id="2" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color3">3. ¿Cómo conoció Hércules a Megara?
+		<input type="text" name="3" id="3" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color4">4. ¿Cómo se llama el pony de Hércules?
+		<input type="text" name="4" id="4" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color5">5. ¿Cómo se convirtió en Dios Hércules?
+		<input type="text" name="5" id="5" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color6">6. ¿Cómo se llama el villano?
+		<input type="text" name="6" id="6" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color7">7. ¿Cómo se llaman los secuaces del villano?
+		<input type="text" name="7" id="7" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color8">8. ¿Qué personaje de Disney salió en la película de Hércules?
+		<input type="text" name="8" id="8" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color9">9. ¿Cómo se llama la canción que canta Megara?
+		<input type="text" name="9" id="9" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color10">10. ¿Cómo se llama el entrenador de Hércules?
+		<input type="text" name="10" id="10" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<p id="boton"><button onclick="calcular()">Calificar</button></p>
+
+	<div id="calificacion"></div>
+
+
+</body>
+</html>
